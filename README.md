@@ -34,6 +34,27 @@ This is a solution to the [Social links profile challenge on Frontend Mentor](ht
 
 ### What I learned
 
+I remembered how to declare variables in css:
+
+```css
+:root {
+  --green: hsl(75, 94%, 57%);
+  --white: hsl(0, 0%, 100%);
+  --grey: hsl(0, 0%, 20%);
+  --dark_grey: hsl(0, 0%, 12%);
+  --off_black: hsl(0, 0%, 8%);
+}
+```
+
+To use it in a selection
+
+```css
+.main {
+  background-color: var(--off_black);
+  color: var(--white);
+}
+```
+
 ### Useful resources
 
 - [Free Host - render.com](https://render.com/) - Our fastest path to production
